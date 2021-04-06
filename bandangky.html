@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <table width="30%">
+        <Caption style="background: aqua"><h3>ĐĂNG KÝ HỌC VIÊN</h3></Caption>
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" name="yourname"></td>
+        </tr>
+       <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date" name="yourbirthday"></td>
+        </tr>
+       <tr>
+           <td>Giới tính</td>
+           <td><input type="radio" name="gt" >Nam <input type="radio" name="gt" >Nữ</td>
+       </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td rowspan="2"><input type="text" name="adress" style="height: 40px"></td>
+        </tr>
+        <tr>
+            <td height="20px"></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td><select>
+                <option>10A1</option>
+                <option>10A2</option>
+                <option>10A3</option>
+                <option>11A1</option>
+                <option>11A2</option>
+                <option>11A3</option>
+                <option>12A1</option>
+                <option>12A2</option>
+                <option>12A3</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" name="phonenumber"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Đăng ký">    <input type="reset" value="Nhập lại"></td>
+        </tr>
+    </table>
+</form>
+<style>
+    table { border-collapse: collapse;
+    background: gold;
+    }
+    form {padding: 10px}
+</style>
+
+</body>
+</html>
